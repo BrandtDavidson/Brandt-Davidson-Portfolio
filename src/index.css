@@ -23,6 +23,13 @@ nav1 > .nav-pills > .active > a, .nav-pills > .active > a:hover {
     background-color: #a8b9eba9;
   }
 
+.project-1 {
+    background-image: url('https://i.imgur.com/WqMbGiS.png');
+}
+
+a {
+    text-decoration: none;
+}
 
 .main-background {
     background: linear-gradient(-45deg, #44caf3bd, #2d80dfcd, #daeffd54, #80a7a736);
@@ -35,7 +42,9 @@ nav1 > .nav-pills > .active > a, .nav-pills > .active > a:hover {
     background-image: url('./assets/twitter.svg');
 }
 
-
+svg:hover {
+    fill: rgba(9, 75, 160, 0.705);
+}
 
 
 img {
