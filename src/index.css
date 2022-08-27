@@ -1,0 +1,57 @@
+/* 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #f6aaf09e;
+}
+
+nav1 > .nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #f6aaf09e;
+} */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: gray;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    font-family: San Francisco, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 150%;
+    background-color: #a8b9eba9;
+  }
+
+
+.main-background {
+    background: linear-gradient(-45deg, #44caf3bd, #2d80dfcd, #daeffd54, #80a7a736);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    min-height: 100vh;
+  }
+
+.icon-twitter {
+    background-image: url('./assets/twitter.svg');
+}
+
+
+
+
+img {
+    max-height: 500px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }
+
+  
