@@ -12,15 +12,14 @@ export default function Home() {
           />
         </div>
         <div className="col-lg-6 p-3">
-          <p className="lead">
+          <h2 className="display-10 lh-1 mb-3">
             Hi, my name is
-            <h1 className="display-5 fw-bold lh-1 p-3">Brandt Davidson</h1>
-            <h3 className="display-10 fw-bold lh-1 mb-3">
+            <h1 className="display-10 fw-bold lh-1 mb-3">Brandt Davidson</h1>
+            <h2 className="display-10 lh-1 mb-3">
               I'm a full-stack web developer from <br /> Missoula, Montana.
-            </h3>
-          </p>
-          <p>
-            {" "}
+            </h2>
+          </h2>
+          <p className='display-10 lh-1 mb-3'>
             After receiving my B.S. in Biochemistry from the University of
             Arizona in the spring of 2022, I decided to extend the skills in my
             tool-box by completing a 3-month intensive bootcamp for full-stack
