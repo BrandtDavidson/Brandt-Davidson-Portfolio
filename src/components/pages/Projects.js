@@ -24,7 +24,7 @@ function Projects() {
                 <h2 className="pt-0 mt-3 mb-4 display-7 lh-1">
                   Market Moment
                   <>
-                    <Button variant="primary" onClick={() => setLgShow(true)}>
+                    <Button variant="secondary" onClick={() => setLgShow(true)}>
                       Launch Application
                     </Button>
 
