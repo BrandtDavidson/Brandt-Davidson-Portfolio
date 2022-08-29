@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="container col-xxl-8 px-4 py-5">
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div className="col-10 col-sm-8 col-lg-6 border-rounded">
+        <div className="col-10 col-sm-8 col-lg-6 border-rounded bg-image hover-overlay">
           <img
             src="https://i.imgur.com/zUGdSto.jpg"
             className="d-block mx-lg-auto img-fluid rounded-4 shadow-lg"
