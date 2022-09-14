@@ -1,13 +1,14 @@
 import React from "react";
 
-export default function Home() {
+export default function Home({ currentPage, handlePageChange}) {
   return (
-    <div className="container col-xxl-8 px-4 py-5">
+    <div className="render container col-xxl-8 px-4 py-5">
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div className="col-10 col-sm-8 col-lg-6 border-rounded bg-image hover-overlay">
           <img
+            onClick={() => handlePageChange("About")}
             src="https://i.imgur.com/zUGdSto.jpg"
-            className="d-block mx-lg-auto img-fluid rounded-4 shadow-lg"
+            className="port d-block mx-lg-auto img-fluid rounded-4 shadow-lg"
             alt="brandt davidson in front of mountain"
           />
         </div>
@@ -29,9 +30,10 @@ export default function Home() {
             <div className="col d-flex align-items-start">
               <a href="https://twitter.com/BrandtDavidson">
                 <svg
+                className="twitter"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
+                  width="50"
+                  height="50"
                   class="bi bi-twitter"
                   viewBox="0 0 16 16"
                 >
@@ -42,9 +44,10 @@ export default function Home() {
             <div className="col d-flex align-items-start">
               <a href="https://www.github.com//brandtdavidson/">
                 <svg
+                className='github'
                   xmlns="http://www.w3.org/2000/svg"
-                  width="35"
-                  height="35"
+                  width="55"
+                  height="55"
                   class="bi bi-github"
                   viewBox="0 0 16 16"
                 >
@@ -55,8 +58,8 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/brandtdavidson/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
+                width="55"
+                height="55"
                 class="bi bi-linkedin"
                 viewBox="0 0 16 16"
               >
@@ -66,8 +69,8 @@ export default function Home() {
             <a href="https://www.instagram.com/BrandtDavidson">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
+                width="50"
+                height="50"
                 class="bi bi-instagram"
                 viewBox="0 0 16 16"
               >

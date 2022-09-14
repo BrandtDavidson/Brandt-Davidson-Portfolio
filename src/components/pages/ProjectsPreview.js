@@ -2,17 +2,28 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 // import Container from "react-bootstrap/Container";
+import Header from "../Header";
+import Link from "react-scroll/modules/components/Link";
+import Projects from "./Projects";
 
-function Projects() {
+function ProjectsPreview({ currentPage, handlePageChange}) {
   const [show, setShow] = useState(false);
   const [lgShow, setLgShow] = useState(false);
   const handleClose = () => setShow(false);
   // const handleShow = () => setShow(true);
 
+  const pageChangeProj = () => {
+      <Link to='#projects'></Link>
+  }
+
+
   return (
-    <div className="render container col-xxl-8 px-4 py-5">
+    <div className="port-preview container mt-5 col-xxl-8 px-4 py-5">
       <div className="container px-0 py-5" id="custom-cards">
-        <h2 className="pb-2 d-flex align-items-center">Projects</h2>
+          <div className="d-flex justify-content-around">
+        <h1 className="d-flex">Check out some of my recent projects!
+        </h1>
+        </div>
         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div className="col">
             <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
@@ -152,4 +163,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectsPreview;
