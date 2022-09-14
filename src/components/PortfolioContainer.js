@@ -25,7 +25,9 @@ export default function PortfolioContainer() {
 
   // const renderFooter = () => {
   //   return <Footer />
-  // }
+  // }ß
+
+  // note
 
   const handlePageChange = (page) => setCurrentPage(page);
 
