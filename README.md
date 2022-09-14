@@ -2,7 +2,7 @@
 
 ## Description 
 
-A new portfolio front-end reinvisioned with React, and React-strap.
+Portofolio made with React, and React-Strap. 
 
 Utilizing many of the learned methods, as well as incorporating new skills, this is a standard portfolio page directing the user to my relevant career qualifications.
 
