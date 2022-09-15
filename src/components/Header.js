@@ -2,7 +2,7 @@ import React from "react";
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <div className="px-3 py-2 text-bg-dark">
+    <div className="header-class px-3 py-2 text-bg-dark">
       <div className="container">
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a

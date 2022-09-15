@@ -19,12 +19,13 @@ function ProjectsPreview({ currentPage, handlePageChange}) {
 
   return (
       <div className="port-preview container mt-5 col-xxl-8 px-4 py-5">
-        <hr class='featurette-divider'></hr>
       <div className="container px-0 py-5" id="custom-cards">
           <div className="d-flex justify-content-around">
-        <h1 className="d-flex">Check out some of my recent projects!
+        <h1 className="d-flex fw-bold">Check out some of my recent projects below! 
         </h1>
         </div>
+        
+        <hr class='featurette-divider'></hr>
         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div className="col">
             <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">

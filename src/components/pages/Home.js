@@ -4,33 +4,33 @@ export default function Home({ currentPage, handlePageChange}) {
   return (
     <div className="render container col-xxl-8 px-4 py-5">
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div className="col-10 col-sm-8 col-lg-6 border-rounded bg-image hover-overlay">
+        <div className=" col-10 col-sm-8 col-lg-6 border-rounded bg-image hover-overlay">
           <img
             onClick={() => handlePageChange("About")}
             src="https://i.imgur.com/zUGdSto.jpg"
-            className="port d-block mx-lg-auto img-fluid rounded-4 shadow-lg"
+            className="portImg d-block mx-lg-auto img-fluid rounded-4 shadow-lg"
             alt="brandt davidson in front of mountain"
           />
         </div>
-        <div className="col-lg-6 p-3">
-          <h2 className="display-10 lh-1 mb-3">
+        <div className="home-text col-lg-6 p-3">
+          <h2 className="d-flex justify-co display-10 lh-1 mb-3">
             Hi, my name is
+            </h2>
             <h1 className="display-10 fw-bold lh-1 mb-3">Brandt Davidson</h1>
             <h2 className="display-10 lh-1 mb-3">
-              I'm a full-stack web developer from <br /> Missoula, Montana.
+              I'm a <span className='text-back fw-bold text-white'>full-stack web developer</span> from Missoula, Montana. 
             </h2>
-          </h2>
-          <p className='display-10 lh-1 mb-3'>
+          <p className='render-text-secondary display-8 lh-3 mb-1'>
             After receiving my B.S. in Biochemistry from the University of
             Arizona in the spring of 2022, I decided to extend the skills in my
             tool-box by completing a 3-month intensive bootcamp for full-stack
             web development.
           </p>
-          <div className="row row-cols-1 row-cols-sm-4 row-cols-md-4 row-cols-lg-4 g-5 py-5 d-flex justify-content-center">
-            <div className="col d-flex align-items-start">
+          <div className="render-text-final social-links d-flex row row-cols-1 row-cols-sm-4 row-cols-md-4 row-cols-lg-4 g-5 py-5">
+            <div className="col d-flex ">
               <a href="https://twitter.com/BrandtDavidson">
                 <svg
-                className="twitter"
+                className="twitter pulse"
                   xmlns="http://www.w3.org/2000/svg"
                   width="50"
                   height="50"
@@ -41,7 +41,7 @@ export default function Home({ currentPage, handlePageChange}) {
                 </svg>
               </a>
             </div>
-            <div className="col d-flex align-items-start">
+            <div className="col d-flex">
               <a href="https://www.github.com//brandtdavidson/">
                 <svg
                 className='github'

@@ -13,20 +13,20 @@ export default function About() {
           />
         </div>
         <div className="col-lg-6 p-3">
-          <h2 className="display-10 lh-1 mb-3">
+          <h2 className="render-text-main display-10 lh-1 mb-3">
             Hi, my name is
-            <h1 className="display-10 fw-bold lh-1 mb-3">Brandt Davidson</h1>
-            <h2 className="display-10 lh-1 mb-3">
+            <h1 className="render-text-main display-10 fw-bold lh-1 mb-3">Brandt Davidson</h1>
+            <h2 className="render-text-main display-10 lh-1 mb-3">
               I'm a full-stack web developer from <br /> Missoula, Montana.
             </h2>
           </h2>
-          <p className='display-10 lh-1 mb-3'>
+          <p className='render-text-secondary display-10 lh-1 mb-3'>
             After receiving my B.S. in Biochemistry from the University of
             Arizona in the spring of 2022, I decided to extend the skills in my
             tool-box by completing a 3-month intensive bootcamp for full-stack
             web development.
           </p>
-          <div className="row row-cols-1 row-cols-sm-4 row-cols-md-4 row-cols-lg-4 g-5 py-5 d-flex justify-content-center">
+          <div className="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-4 g-5 py-5 d-flex ">
             <div className="col d-flex align-items-start">
               <a href="https://twitter.com/BrandtDavidson">
                 <svg

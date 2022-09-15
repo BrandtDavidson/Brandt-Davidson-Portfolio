@@ -44,6 +44,12 @@ export default function PortfolioContainer() {
     >
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+
+      {/* <footer className='footer'>
+        <div className='container'>
+          <span className='d-flex flex-row-reverse text-primary text-white'>Brandt Davidson 2022</span>
+        </div>
+      </footer> */}
     </div>
   );
 }
