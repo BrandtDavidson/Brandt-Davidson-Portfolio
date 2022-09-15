@@ -57,9 +57,8 @@ svg:hover {
 }
   
 .port:hover {
-      opacity: 95%;
-      transition: transform 4.5s ease-in-out;
-      transform: translate(0px, -20px);
+      opacity: 85%;
+      
   }
 
 a {

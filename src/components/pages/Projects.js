@@ -21,7 +21,7 @@ function Projects() {
                 src="https://i.imgur.com/WqMbGiS.png"
               ></img>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h2 className="pt-0 mt-3 mb-4 display-7 lh-1">
+                <h3 className="pt-0 mt-3 mb-4 display-7 lh-1">
                   Market Moment
                   <>
                     <Button variant="secondary" onClick={() => setLgShow(true)}>
@@ -56,7 +56,7 @@ function Projects() {
                       </Button>
                     </Modal>
                   </>
-                </h2>
+                </h3>
               </div>
             </div>
           </div>
@@ -67,7 +67,8 @@ function Projects() {
                 src="https://i.imgur.com/jRergFW.png"
               ></img>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h2 className="pt-0 mt-3 mb-4 display-7 lh-1">
+                <h3 className="mt-3 mb-4 display-7 lh-1">
+                  Social Network API
                   {/* <>
                     <Button variant="primary" onClick={() => setLgShow(true)}>
                       Launch Application
@@ -100,7 +101,7 @@ function Projects() {
                       
                     </Modal>
                   </> */}
-                </h2>
+                </h3>
               </div>
             </div>
           </div>
@@ -112,6 +113,7 @@ function Projects() {
               ></img>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                 <h2 className="pt-0 mt-3 mb-4 display-7 lh-1">
+                ZR-1-Stop Shops
                   {/* <>
                     <Button variant="primary" onClick={() => setLgShow(true)}>
                       Launch Application

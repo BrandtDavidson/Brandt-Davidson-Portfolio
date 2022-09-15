@@ -18,7 +18,8 @@ function ProjectsPreview({ currentPage, handlePageChange}) {
 
 
   return (
-    <div className="port-preview container mt-5 col-xxl-8 px-4 py-5">
+      <div className="port-preview container mt-5 col-xxl-8 px-4 py-5">
+        <hr class='featurette-divider'></hr>
       <div className="container px-0 py-5" id="custom-cards">
           <div className="d-flex justify-content-around">
         <h1 className="d-flex">Check out some of my recent projects!
@@ -32,7 +33,7 @@ function ProjectsPreview({ currentPage, handlePageChange}) {
                 src="https://i.imgur.com/WqMbGiS.png"
               ></img>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h2 className="pt-0 mt-3 mb-4 display-7 lh-1">
+                <h3 className="pt-0 mt-3 mb-4 display-7 lh-1">
                   Market Moment
                   <>
                     <Button variant="secondary" onClick={() => setLgShow(true)}>
@@ -67,7 +68,7 @@ function ProjectsPreview({ currentPage, handlePageChange}) {
                       </Button>
                     </Modal>
                   </>
-                </h2>
+                </h3>
               </div>
             </div>
           </div>
@@ -78,7 +79,8 @@ function ProjectsPreview({ currentPage, handlePageChange}) {
                 src="https://i.imgur.com/jRergFW.png"
               ></img>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h2 className="pt-0 mt-3 mb-4 display-7 lh-1">
+                <h3 className="pt-0 mt-3 mb-4 display-7 lh-1">
+                    Social Network API
                   {/* <>
                     <Button variant="primary" onClick={() => setLgShow(true)}>
                       Launch Application
@@ -111,7 +113,7 @@ function ProjectsPreview({ currentPage, handlePageChange}) {
                       
                     </Modal>
                   </> */}
-                </h2>
+                </h3>
               </div>
             </div>
           </div>
@@ -122,7 +124,8 @@ function ProjectsPreview({ currentPage, handlePageChange}) {
                 src="https://i.imgur.com/BZKqLkE.png"
               ></img>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h2 className="pt-0 mt-3 mb-4 display-7 lh-1">
+                <h3 className="pt-0 mt-3 mb-4 display-7 lh-1">
+                    ZR-1-Stop Shops 
                   {/* <>
                     <Button variant="primary" onClick={() => setLgShow(true)}>
                       Launch Application
@@ -153,7 +156,7 @@ function ProjectsPreview({ currentPage, handlePageChange}) {
                         </Button>
                     </Modal>
                   </> */}
-                </h2>
+                </h3>
               </div>
             </div>
           </div>
