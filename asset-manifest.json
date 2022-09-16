@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Brandt-Davidson-Portfolio/static/css/main.5189b0c2.css",
-    "main.js": "/Brandt-Davidson-Portfolio/static/js/main.e8be3842.js",
+    "main.css": "/Brandt-Davidson-Portfolio/static/css/main.b4d7d702.css",
+    "main.js": "/Brandt-Davidson-Portfolio/static/js/main.5a969405.js",
     "index.html": "/Brandt-Davidson-Portfolio/index.html",
     "static/media/twitter.svg": "/Brandt-Davidson-Portfolio/static/media/twitter.db226d55c343637e1371.svg",
-    "main.5189b0c2.css.map": "/Brandt-Davidson-Portfolio/static/css/main.5189b0c2.css.map",
-    "main.e8be3842.js.map": "/Brandt-Davidson-Portfolio/static/js/main.e8be3842.js.map"
+    "main.b4d7d702.css.map": "/Brandt-Davidson-Portfolio/static/css/main.b4d7d702.css.map",
+    "main.5a969405.js.map": "/Brandt-Davidson-Portfolio/static/js/main.5a969405.js.map"
   },
   "entrypoints": [
-    "static/css/main.5189b0c2.css",
-    "static/js/main.e8be3842.js"
+    "static/css/main.b4d7d702.css",
+    "static/js/main.5a969405.js"
   ]
 }
