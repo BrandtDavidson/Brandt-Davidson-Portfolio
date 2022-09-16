@@ -3,6 +3,7 @@ import React from "react";
 export default function Home({ currentPage, handlePageChange}) {
   return (
     <div className="render container col-xxl-8 px-4 py-5">
+      <div className="overlay-projects">
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div className=" col-10 col-sm-8 col-lg-6 border-rounded bg-image hover-overlay">
           <img
@@ -12,7 +13,7 @@ export default function Home({ currentPage, handlePageChange}) {
             alt="brandt davidson in front of mountain"
           />
         </div>
-        <div className="home-text col-lg-6 p-3">
+        <div className="home-text  col-lg-6 py-3">
           <h2 className="d-flex justify-co display-10 lh-1 mb-3">
             Hi, my name is
             </h2>
@@ -26,7 +27,8 @@ export default function Home({ currentPage, handlePageChange}) {
             tool-box by completing a 3-month intensive bootcamp for full-stack
             web development.
           </p>
-          <div className="render-text-final social-links d-flex row row-cols-1 row-cols-sm-4 row-cols-md-4 row-cols-lg-4 g-5 py-5">
+          <br></br>
+          <div className="render-text-final social-links d-flex row row-cols-4 row-cols-sm-4 row-cols-md-4 row-cols-lg-4 g-5 py-5">
             <div className="col d-flex ">
               <a href="https://twitter.com/BrandtDavidson">
                 <svg
@@ -79,6 +81,7 @@ export default function Home({ currentPage, handlePageChange}) {
             </a>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

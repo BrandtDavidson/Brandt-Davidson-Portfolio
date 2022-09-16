@@ -11,9 +11,13 @@ nav1 > .nav-pills > .active > a, .nav-pills > .active > a:hover {
     background-color: gray;
 }
 
+:root {
+    scroll-behavior: smooth;
+}
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   
   html,
@@ -26,6 +30,74 @@ nav1 > .nav-pills > .active > a, .nav-pills > .active > a:hover {
 .project-1 {
     background-image: url('https://i.imgur.com/WqMbGiS.png');
 }
+
+.ava {
+    height: 250px;
+    width: 250px;
+}
+
+.overlay {
+    width: 100%;
+    max-width: 1140px;
+    max-height: 640px;
+    padding: 10rem 8rem;
+    /* display: flex;
+    align-items: center; */
+    background: rgba(255, 255, 255, 0.375);
+    box-shadow: 0 0.75rem 10rem 10rem rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    opacity: 80%;
+    /* box-shadow: inset 0px 0px 4px 2px #ffffff00; */
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  .overlay-projects {
+    width: auto;
+    padding: 4rem 3rem;
+    /* display: flex;
+    align-items: center; */
+    background: rgba(255, 255, 255, 0.375);
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  .overlay-skills {
+    width: auto;
+    padding: 4rem 3rem;
+    /* display: flex;
+    align-items: center; */
+    background: rgba(255, 255, 255, 0.39);
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: rem;
+    border: 1px solid rgba(255, 255, 255, 0.027);
+  }
+
+  .overlay-aboutme {
+    padding: 4rem 3rem;
+    /* display: flex;
+    align-items: center; */
+    background: rgba(255, 255, 255, 0.39);
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0rem;
+    border: 1px solid rgba(255, 255, 255, 0.027);
+  }
+
+  .overlay-resume {
+    width: auto;
+    height: 1000px;
+    padding: 4rem 3rem;
+    display:flex;
+    justify-content: center;
+    /* display: flex;
+    align-items: center; */
+    background: rgba(255, 255, 255, 0.375);
+    box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+
 
 svg {
     position: relative;
@@ -40,13 +112,19 @@ svg:hover {
     width: 75px;
   }
 
+img:hover {
+    transition: 1s;
+    opacity: 90%;
+
+}
+
 .text-back {
     opacity: 0;
     animation-name: fadein;
     animation-duration: 5000ms;
     animation-iteration-count: 1;
     animation-fill-mode: both;
-    text-shadow: 22px, 22px, 52px black
+    text-shadow: 22px, 22px, 52px black;
 }
 
 .render {
@@ -55,6 +133,7 @@ svg:hover {
     animation-duration: 1000ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    transition: 4s;
 }
 
 .render-text-main {
@@ -97,7 +176,7 @@ svg:hover {
 
 /* 
 .port:after {
-	filter: blur(50px);
+    filter: blur(50px);
 } */
 
 a {
@@ -117,6 +196,13 @@ a {
 }
 
 
+.built-with-tags {
+    opacity: 99%;
+}
+
+hr {
+    padding-top: 20px;
+}
 
 img {
     max-height: 500px;
@@ -147,22 +233,37 @@ img {
 
   @media (max-width: 768px) {
 
+   * {
+    scroll-behavior: smooth;
+   }
 
 
+    .resume-frame {
+        max-width: 700px;
+        max-height: 1000px;
+    }
+    .overlay {
+        padding: 1rem;
+    }
 
     .header-class {
         box-shadow: 1px 2px 25px black;
     }
 
+
+    p {
+        font-size: small;
+    }
+
+
     .portImg{
-        margin-left: 23px;
+        margin-left: 30px;
     }    
     .social-links {
-        height: 30vh;
+        height: 8vh;
         display: flex;
         justify-content: center;
-        padding-left: 150px;
-        
+        padding-right: 6px;
     }
   }
-  
+

@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import * as Scroll from "react-scroll";
 import ProjectsPreview from "./pages/ProjectsPreview";
 
+
 // import Footer from './pages/Footer';
 
 export default function PortfolioContainer() {

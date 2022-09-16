@@ -54,7 +54,7 @@ function Header({ currentPage, handlePageChange }) {
                   currentPage === "Contact" ? "nav-link active" : "nav-link"
                 }
               >
-                Contact
+                Resumé
               </a>
             </li>
           </ul>
