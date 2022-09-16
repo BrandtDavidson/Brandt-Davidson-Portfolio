@@ -32,8 +32,8 @@ nav1 > .nav-pills > .active > a, .nav-pills > .active > a:hover {
 }
 
 .ava {
-    height: 250px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
 }
 
 .overlay {
@@ -74,7 +74,10 @@ nav1 > .nav-pills > .active > a, .nav-pills > .active > a:hover {
   }
 
   .overlay-aboutme {
+    width: auto;
+    height: auto;
     padding: 4rem 3rem;
+
     /* display: flex;
     align-items: center; */
     background: rgba(255, 255, 255, 0.39);
@@ -131,6 +134,15 @@ img:hover {
     opacity: 0;
     animation-name: fadein;
     animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 4s;
+}
+
+.render-list {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 10000ms;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     transition: 4s;
